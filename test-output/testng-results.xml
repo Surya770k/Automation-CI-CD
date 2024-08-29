@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T16:44:55 IST" name="Suite" finished-at="2024-08-08T16:48:14 IST" duration-ms="198716">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.ApiRunner@4470fbd6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-08T16:44:55 IST" name="SMOKE TEST" finished-at="2024-08-08T16:48:14 IST" duration-ms="198716">
+      <class name="TestRunners.ApiRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunners.ApiRunner@4470fbd6]" started-at="2024-08-08T16:48:11 IST" name="setUpClass" finished-at="2024-08-08T16:48:11 IST" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41df8438]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeCalss()[pri:0, instance:TestRunners.ApiRunner@4470fbd6]" started-at="2024-08-08T16:48:11 IST" name="beforeCalss" finished-at="2024-08-08T16:48:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCalss -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.ApiRunner@4470fbd6]" started-at="2024-08-08T16:48:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-08T16:48:14 IST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunners.ApiRunner@4470fbd6]" started-at="2024-08-08T16:48:14 IST" name="tearDownClass" finished-at="2024-08-08T16:48:14 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunners.ApiRunner -->
+    </test> <!-- SMOKE TEST -->
+  </suite> <!-- Suite -->
+</testng-results>
