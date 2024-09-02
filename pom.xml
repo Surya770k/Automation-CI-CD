@@ -358,7 +358,7 @@
                 <version>3.0.0-M7</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${user.dir}/TestSuites_Focus_Mobile_App/FMA_RegressionTest01.xml</suiteXmlFile>
+                        <suiteXmlFile>${user.dir}/ExecutionSuites/ApiRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
